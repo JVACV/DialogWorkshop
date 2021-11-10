@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyDialog</string>
+    <string name="success_login_msg">Login successfull</string>
+    <string name="error_login_msg">Login failed</string>
+</resources>

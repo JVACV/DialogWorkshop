@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_select_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bt_select_version"/>
+
+    <Button
+        android:id="@+id/bt_select_multipleversion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="select multiple versions"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonCustomDialog"
+        android:text="Custom Dialog"/>
+    <Button
+       android:id="@+id/bt_date_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="datePicker"/>
+    <Button
+        android:id="@+id/bt_time_picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Time picker" />
+    <Button
+        android:id="@+id/bt_bar_progress_dilog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress dialog" />
+    <Button
+        android:id="@+id/bt_progress_dilog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bar Progress dialog" />
+
+</LinearLayout>
